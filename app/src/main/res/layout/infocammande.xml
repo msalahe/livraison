@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+    android:id="@+id/imageView8"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/intitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="Information Commande"
+        android:textSize="19dp"
+        app:fontFamily="@font/space_mono_bold" />
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_near_me_black_24dp">
+
+            </ImageView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/nomClient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Ayoube EL Mesbahi"
+                android:textColor="#020101"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:id="@+id/addresCommande"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="39dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:textColor="#020101"
+                android:textStyle="bold"
+                android:text="376,LOTS JADE TGHAT ,FES" />
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <View
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="2dip"
+        android:background="#ADA9A9"
+        android:paddingBottom="10dip"
+        android:layout_marginTop="12dp"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/t"
+            android:layout_marginTop="12dp"
+             android:layout_marginLeft="20dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#020101"
+            android:textStyle="bold"
+            android:text="Créneau horaire">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/dateCommande"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/t"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"
+            android:text="17:00-22:00"></TextView>
+    </RelativeLayout>
+    <View
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="2dip"
+        android:background="#ADA9A9"
+        android:paddingBottom="10dip"
+        android:layout_marginTop="12dp"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/ttx"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#020101"
+            android:textStyle="bold"
+            android:text="Status">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/etatCommande"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ttx"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"
+            android:text="En cours "
+            app:fontFamily="@font/poppins"></TextView>
+    </RelativeLayout>
+    <View
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="2dip"
+        android:background="#ADA9A9"
+        android:paddingBottom="10dip"
+        android:layout_marginTop="12dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonRetour2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/roudedretoure"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="@font/poppins"
+            android:text="Retour" />
+
+        <Button
+            android:id="@+id/buttonAnnuler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:text="Annuleé"
+            android:fontFamily="@font/poppins"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/roundanulle"/>
+
+        <Button
+            android:id="@+id/buttonValider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:text="Confirme"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/poppins"
+            android:background="@drawable/roundedconfireme"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

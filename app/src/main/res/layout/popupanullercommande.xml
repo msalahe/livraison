@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_popup"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/colis" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+    <RadioGroup
+        android:id="@+id/radiogroupe1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/clientindesepible"
+        android:layout_centerInParent="true">
+        <RadioButton
+            android:id="@+id/clientindesepible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Le Client indesponibile"
+            android:checked="true"
+            >
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/Laproblemevehicule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:checked="false"
+            android:text="La Probéleme au Vehicule"
+      >
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/lavoieplien"
+            android:layout_width="wrap_content"
+            android:checked="false"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_height="wrap_content"
+            android:text="La Voie est pleine"
+            >
+
+        </RadioButton>
+
+
+    </RadioGroup>
+
+
+    </RelativeLayout>
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingBottom="15dp"
+      android:paddingLeft="135dp">
+
+      <Button
+          android:id="@+id/annpop"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/roundanulle"
+          android:fontFamily="@font/poppins_semibold"
+
+          android:text="Annuler">
+
+      </Button>
+  </LinearLayout>
+</LinearLayout>

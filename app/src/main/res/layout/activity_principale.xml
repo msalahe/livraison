@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginRight="116dp"
+
+        app:srcCompat="@drawable/logo" />
+
+    <FrameLayout
+        android:id="@+id/framLayout"
+        android:layout_width="match_parent"
+        android:layout_height="599dp"
+        android:layout_above="@+id/bottomView"
+        android:layout_below="@+id/imageView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="6dp" />
+
+    <com.ismaeldivita.chipnavigation.ChipNavigationBar
+        android:id="@+id/bottomView"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:background="@drawable/roundednavigationba"
+        android:elevation="16dp"
+        android:padding="8dp"
+        android:layout_height="63dp"
+        android:layout_alignParentBottom="true"
+        app:cnb_menuResource="@menu/menubar">
+
+    </com.ismaeldivita.chipnavigation.ChipNavigationBar>
+
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cnb_unselectedColor="#fff">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home"
+        app:cnb_backgroundColor ="@color/vertshoune"
+        app:cnb_textColor="#fff"
+        app:cnb_iconColor="#fff"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/navigation_palces"
+        android:icon="@drawable/ic_place_black_24dp"
+        app:cnb_backgroundColor ="@color/vertshoune"
+        app:cnb_textColor="#fff"
+        app:cnb_iconColor="#fff"
+        android:title="Maps" />
+    <item
+    android:id="@+id/deconnect"
+    android:icon="@drawable/ic_power_settings_new_black_24dp"
+        app:cnb_backgroundColor ="@color/vertshoune"
+        app:cnb_textColor="#fff"
+        app:cnb_iconColor="#fff"
+    android:title="Deconnecte" />
+
+
+
+</menu>

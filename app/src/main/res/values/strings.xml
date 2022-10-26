@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ProjectStage</string>
+    <string name="token">pk.eyJ1Ijoia2FtYWwzNDQiLCJhIjoiY2thOTF3cTBqMDE1MDM1b2l2OHEzNmgyeSJ9.YNIVfRu6sR_wbuMY0C-xow</string>
+    <string name="user_location_permission_explanation">This app needs location permissions to show its functionality.</string>
+    <string name="user_location_permission_not_granted">You didn\'t grant location permissions.</string>
+</resources>
